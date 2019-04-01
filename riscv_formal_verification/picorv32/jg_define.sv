@@ -1,0 +1,18 @@
+//define macros by Yuxin Wang
+
+`define RISCV_FORMAL
+`define RISCV_FORMAL_NRET 1
+`define RISCV_FORMAL_XLEN 32
+`define RISCV_FORMAL_ILEN 32
+`define RISCV_FORMAL_RESET_CYCLES 1
+`define RISCV_FORMAL_CHECK_CYCLE 16
+//`define RISCV_FORMAL_TRIG_CYCLE 10
+`define RISCV_FORMAL_CHANNEL_IDX 0 
+`define RISCV_FORMAL_CHECKER rvfi_insn_check
+`define RISCV_FORMAL_INSN_MODEL rvfi_insn_lw
+`define RISCV_FORMAL_ALIGNED_MEM
+`define RISCV_FORMAL_ALTOPS
+`define RISCV_FORMAL_COMPRESSED
+`define DEBUGNETS
+//`define MEMIO_FAIRNESS
+`include "rvfi_macros.vh"

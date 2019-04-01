@@ -1,0 +1,60 @@
+reset 1'b1
+wrapper.dbus_ack 1'bx
+wrapper.ibus_ack 1'bx
+wrapper.ibus_rdt 32'bx
+4
+reset 1'b0
+wrapper.dbus_ack  1'b0
+wrapper.ibus_ack  1'b0
+wrapper.ibus_rdt  32'h7fe000c0
+1
+wrapper.ibus_rdt  32'h7e6000c3
+1
+wrapper.ibus_rdt  32'h7c000fe0
+1
+wrapper.ibus_rdt  32'h7fe00013
+3
+wrapper.ibus_ack  1'b1
+wrapper.ibus_rdt  32'h380f8f93
+1
+wrapper.ibus_ack  1'b0
+wrapper.ibus_rdt  32'h7f800013
+1
+wrapper.ibus_rdt  32'h7fe00013
+3
+wrapper.ibus_rdt  32'h7e600013
+1
+wrapper.ibus_rdt  32'h7fe00013
+4
+wrapper.ibus_rdt  32'h7fe000c0
+2
+wrapper.ibus_rdt  32'h7fe00013
+2
+wrapper.ibus_rdt  32'h7fe000c0
+8
+wrapper.ibus_rdt  32'h5fe00010
+1
+wrapper.ibus_rdt  32'h3fe00010
+1
+wrapper.ibus_rdt  32'h17e00010
+1
+wrapper.ibus_rdt  32'h0fe00010
+1
+wrapper.ibus_rdt  32'h07e00010
+1
+wrapper.ibus_rdt  32'h01e000a4
+1
+wrapper.ibus_rdt  32'h01600010
+1
+wrapper.ibus_rdt  32'h00a00010
+1
+wrapper.ibus_rdt  32'h004000a4
+1
+wrapper.ibus_rdt  32'h00200010
+1
+wrapper.ibus_rdt  32'h000000a4
+1
+wrapper.ibus_rdt  32'h00000020
+1
+wrapper.ibus_rdt  32'h00000000
+3
