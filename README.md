@@ -22,28 +22,26 @@ The contents in each directory is listed as follows:
   
   some vcd files and tcl files specifically designed for waypoint based Semi-formal methods
 
+- sync_fifo
+
+  this directory contains the script to source information fron Candece RC as well as the raw data gathered for scoring prediction
+
 How to use
 -----
 
 - Neural_network_prediction
 
-simply run
-
-python NN_predict.py [your csv file]
-
+simply run:  python NN_predict.py [your csv file]
 
 - auto_gen
 
-simply run
-
-python parse_v_file.py [your csv file] [your verilog file]
-
+simply run:  python parse_v_file.py [your csv file] [your verilog file]
 
 - riscv_formal_verification
 
-this version with jg_cmd.tcl is designed specifically for Cadence JasperGold. Readers can modify it to accommodate for other formal engine supports SVA.
+  this version with jg_cmd.tcl is designed specifically for Cadence JasperGold. Readers can modify it to accommodate for other formal engine supports SVA.
 
-Files need to be modify during SFV run is jg_define.sv, jg_cmd.tcl based on specific instruction you want to run. naming convention is strictly based on RISCV specification. It won't be hard to figure it out thus will not be elborated here.
+  Files need to be modify during SFV run is jg_define.sv, jg_cmd.tcl based on specific instruction you want to run. naming convention is strictly based on RISCV specification. It won't be hard to figure it out thus will not be elborated here.
 
 
 
