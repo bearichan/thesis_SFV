@@ -14,7 +14,9 @@ The contents in each directory is listed as follows:
 
   NN_predict.py is the script to score all flip-flops using the model above
 
-  .csv file is the sample data for demo
+  train_Set_score.csv is the data set built for training
+
+  NN_syncfifo.csv file is the sample data for demo
   
 - riscv_formal_verificaiton 
 
