@@ -20,7 +20,7 @@ The contents in each directory is listed as follows:
   
 - riscv_formal_verificaiton 
 
-  refer to https://github.com/SymbioticEDA/riscv-formal
+  this riscv-semi-formal is based on work from Clifford Wolf, refer to https://github.com/SymbioticEDA/riscv-formal
   
   some vcd files and tcl files specifically designed for waypoint based Semi-formal methods
 
