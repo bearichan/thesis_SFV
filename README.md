@@ -26,7 +26,13 @@ The contents in each directory is listed as follows:
 
 - sync_fifo
 
-  this directory contains the script to source information fron Candece RC as well as the raw data gathered for scoring prediction
+  this directory contains the script to source information from Candece RC as well as the raw data gathered for scoring prediction
+
+
+- designs
+
+  have the RTL source code of all designs used to gather the training data
+
 
 How to use
 -----
